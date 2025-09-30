@@ -1,0 +1,19 @@
+body {
+	direction: rtl;
+}
+
+.nav-primary a {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.lottery-referral__copy {
+	margin-inline-start: 0;
+	margin-inline-end: 8px;
+}
+
+.site-header__inner,
+.footer__inner,
+.container {
+	/* Logical props already help; ensure text aligns naturally */
+}
